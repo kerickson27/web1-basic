@@ -5,8 +5,32 @@
 	margin-bottom: 1em;
 	margin-left: auto;
 	width: 90%;
-	max-width: 800px;
+	max-width: 900px;
 	padding: 2em;
 	border: 1px solid #eee;
+}
+
+.navigation {
+	float:left
+	margin-top:200px;
+}
+
+.logo {
+	float: left;
+	margin right: 200px;
+	margin-left:200px;
+	margin-bottom:25px;
+}
+
+.text {
+	float: left;
+	max-width: 400px;
+}
+
+.photo {
+	float: left;
+	max-width:400px;
+	margin-left:25px;
+	margin-top:25px;
 }
 
