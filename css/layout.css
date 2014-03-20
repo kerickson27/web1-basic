@@ -11,9 +11,10 @@
 }
 
 .navigation {
-	display: inline;
+	float:left;
+	max-width: 90%;
 	margin-left:400px;
-	margin-bottom:100px;
+	display: inline;
 }
 
 .logo {
