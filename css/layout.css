@@ -7,17 +7,18 @@
 	width: 90%;
 	max-width: 900px;
 	padding: 2em;
-	border: 1px solid #eee;
+	border: 2px solid #eee;
 }
 
 .navigation {
-	float:left
-	margin-top:200px;
+	display: inline;
+	margin-left:400px;
+	margin-bottom:100px;
 }
 
 .logo {
 	float: left;
-	margin right: 200px;
+	margin right:200px;
 	margin-left:200px;
 	margin-bottom:25px;
 }
@@ -25,12 +26,18 @@
 .text {
 	float: left;
 	max-width: 400px;
+	margin-top:25px;
 }
 
 .photo {
 	float: left;
 	max-width:400px;
 	margin-left:25px;
-	margin-top:25px;
+	margin-top:50px;
+}
+
+a {
+	text-decoration:none;
+	display: inline;
 }
 
