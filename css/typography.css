@@ -1,6 +1,11 @@
 h1 {
 	font-family: "PT Sans", Arial, sans serif;
-	font-size: 28px;
+	font-size: 24px;
+}
+
+h2 {
+	font-family: "PT Sans", Arial, sans serif;
+	font-size:20px;
 }
 
 body {
@@ -12,6 +17,6 @@ body {
 
 a {
 	font-family: "PT Sans", Arial, sans serif;
-	font-weight: bold;
 	font-size:18px;
+	color:black;
 }

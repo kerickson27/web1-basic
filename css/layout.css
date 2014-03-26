@@ -7,34 +7,29 @@
 	width: 90%;
 	max-width: 900px;
 	padding: 2em;
-	border: 2px solid #eee;
 }
 
 .navigation {
 	float:left;
 	max-width: 90%;
-	margin-left:400px;
-	display: inline;
+	width:100%;
+	text-align:center;
 }
 
-.logo {
-	float: left;
-	margin right:200px;
-	margin-left:200px;
-	margin-bottom:25px;
+.navigation li {
+	display:inline-block;
 }
 
-.text {
-	float: left;
-	max-width: 400px;
-	margin-top:25px;
+.navigation li a{
+	width:140px;
+	padding:10px;
+	margin:10px;
+	background: #CECAAA;
 }
-
-.photo {
-	float: left;
-	max-width:400px;
-	margin-left:25px;
-	margin-top:50px;
+	
+ul {
+	list-style:none;
+	padding-left:0px;
 }
 
 a {
@@ -42,3 +37,49 @@ a {
 	display: inline;
 }
 
+.logo {
+	float: left;
+	margin-left:230px;
+	margin-bottom:20px;
+}
+
+.text {
+	float: left;
+	max-width: 400px;
+	margin-right:30px;
+	margin-top:15px;
+}
+
+.photo {
+	float: left;
+	max-width:400px;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+
+hr {
+	width:100%;
+	float: left;
+}
+
+iframe {
+	float:left;
+	max-width:200px
+	margin-top:100px;
+	margin-right:20px;
+}
+
+.directions {
+	float:left;
+	max-width: 340px;
+}
+
+.contact {
+	float:left;
+}
+
+.about {
+	float:left;
+	margin-right:20px;
+}
